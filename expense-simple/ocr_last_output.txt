@@ -1,0 +1,19 @@
+CMD:
+"C:\Users\acer\AppData\Local\Programs\Python\Python310\python.exe" "C:\xampp\htdocs\expense-simple/ocr/extract_receipt.py" "C:\xampp\htdocs\expense-simple\ocr\_work_69047bac306a6.jpg"
+
+EXIT:0
+
+STDOUT:
+{"merchant": "", "amount": "", "date": "", "items": [], "raw_text": "", "error": "ValueError: Unknown argument: drop_score"}
+
+
+STDERR:
+DEBUG: start
+C:\xampp\htdocs\expense-simple\ocr\extract_receipt.py:623: DeprecationWarning: The parameter `use_angle_cls` has been deprecated and will be removed in the future. Please use `use_textline_orientation` instead.
+  ocr = PaddleOCR(
+C:\xampp\htdocs\expense-simple\ocr\extract_receipt.py:623: DeprecationWarning: The parameter `det_db_thresh` has been deprecated and will be removed in the future. Please use `text_det_thresh` instead.
+  ocr = PaddleOCR(
+C:\xampp\htdocs\expense-simple\ocr\extract_receipt.py:623: DeprecationWarning: The parameter `det_db_box_thresh` has been deprecated and will be removed in the future. Please use `text_det_box_thresh` instead.
+  ocr = PaddleOCR(
+C:\xampp\htdocs\expense-simple\ocr\extract_receipt.py:623: DeprecationWarning: The parameter `det_limit_side_len` has been deprecated and will be removed in the future. Please use `text_det_limit_side_len` instead.
+  ocr = PaddleOCR(
